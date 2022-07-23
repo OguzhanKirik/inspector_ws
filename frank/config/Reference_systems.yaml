@@ -1,0 +1,71 @@
+CAD_file: {POINTCLOUD: /home/oguz/Desktop/TEMP/CAD_FILE/mockup.ply, STEP: /home/oguz/Desktop/TEMP/CAD_FILE/mockup.stp}
+Colors:
+- [1, 0, 0]
+- [1, 1, 0]
+DH_par: {a1: 0.175, a2: 0.9, a3: 0.175, a4: 0.0, a5: 0.0, a6: 0.0, alpha1: -1.5707963268,
+  alpha2: 0.0, alpha3: -1.5707963268, alpha4: 1.5707963268, alpha5: 1.5707963268,
+  alpha6: 0.0, d1: 0.495, d2: 0.0, d3: 0.0, d4: 0.96, d5: 0.0, d6: 0.135}
+DTool_ref1: {aom1: 1.0, aom2: 0.0, aom3: 0.0, aom4: 0.0, cogx: 37.4, cogy: -40.5,
+  cogz: 137.4, ix: 0.131, iy: 0.607, iz: 1.06, mass: 44.9, q1: 0.707106781, q2: 0.0,
+  q3: 0.707106781, q4: 0.0, x: 323.5, y: -0.75, z: 247.7}
+DTool_ref2: {aom1: 1.0, aom2: 0.0, aom3: 0.0, aom4: 0.0, cogx: 37.4, cogy: -40.5,
+  cogz: 137.4, ix: 0.131, iy: 0.607, iz: 1.06, mass: 44.9, q1: 0.707106781, q2: 0.0,
+  q3: 0.707106781, q4: 0.0, x: 340.719, y: -0.75, z: 247.7}
+DTool_ref3: {aom1: 1.0, aom2: 0.0, aom3: 0.0, aom4: 0.0, cogx: 37.4, cogy: -40.5,
+  cogz: 137.4, ix: 0.131, iy: 0.607, iz: 1.06, mass: 44.9, q1: 0.707106781, q2: 0.0,
+  q3: 0.707106781, q4: 0.0, x: 364, y: 0, z: 247.7}
+DTool_ref4: {aom1: 1.0, aom2: 0.0, aom3: 0.0, aom4: 0.0, cogx: 37.4, cogy: -40.5,
+  cogz: 137.4, ix: 0.131, iy: 0.607, iz: 1.06, mass: 44.9, q1: 0.707106781, q2: 0.0,
+  q3: 0.707106781, q4: 0.0, x: 373.105, y: 0.555, z: 247.784}
+DTool_ref5: {aom1: 1.0, aom2: 0.0, aom3: 0.0, aom4: 0.0, cogx: 37.4, cogy: -40.5,
+  cogz: 137.4, ix: 0.131, iy: 0.607, iz: 1.06, mass: 44.9, q1: 0.707106781, q2: 0.0,
+  q3: 0.707106781, q4: 0.0, x: 373.105, y: 0.555, z: 247.784}
+DenseScanParam: {MinDist: 0.0, MoveSpeed: 50.0, OmegaDot: 20.0, PossRot: 2, ScanSpeed: 30.0}
+DrillBit: {1_pos: 1, 2_pos: 3, 3_pos: 5, 4_pos: 2, 5_pos: 4, actual: 3, target: 0}
+DrillingParam: {FeedSpeed: 5.0, HoleAppr: -40.0, HoleDepth: 10.0, HoleInit: -10.0,
+  MinDist: 625.0, MoveSpeed: 30.0, OmegaDot: 20, PossRot: 16, SpeedInSafe: 50.0,
+  popt0: 53.38187, popt1: 1305.5921, popt2: 51.35089, popt3: -2.859879, popt4: 1458.847661}
+EGM: {mod: 0}
+FilePath: {dense: /home/oguz/Desktop/TEMP/DENSE, sparse: /home/oguz/Desktop/TEMP/sparse}
+PosePath: {drill: /home/oguz/Desktop/TEMP/DRILL}
+Procedure: {DrillOp: 1, case: 0}
+STool_ref: {aom1: 1.0, aom2: 0.0, aom3: 0.0, aom4: 0.0, cogx: -19.9, cogy: -47.2,
+  cogz: 109.2, ix: 0.0, iy: 0.0, iz: 0.805, mass: 28.3, q1: 0.707106781, q2: 0.0,
+  q3: 0.0, q4: 0.707106781, x: 0, y: 0, z: 280}
+Wobj_ref: {ofq1: 1.0, ofq2: 0.0, ofq3: 0.0, ofq4: 0.0, ofx: 0.0, ofy: 0.0, ofz: 0.0,
+  ufq1: 1, ufq2: 0.0, ufq3: 0.0, ufq4: 0.0, ufx: 0.0, ufy: 0.0, ufz: 0.0}
+rosapi: {params_glob: '[*]', services_glob: '[*]', topics_glob: '[*]'}
+rosbridge_websocket: {actual_port: 8080, address: 0.0.0.0, authenticate: false, bson_only_mode: false,
+  delay_between_messages: 0, fragment_timeout: 600, max_message_size: None, params_glob: '[*]',
+  port: 8080, retry_startup_delay: 5, services_glob: '[*]', topics_glob: '[*]', unregister_timeout: 10,
+  use_compression: false, websocket_external_port: None, websocket_ping_interval: 0,
+  websocket_ping_timeout: 30}
+rosdistro: 'melodic
+
+
+  '
+roslaunch:
+  uris: {host_c301_desktop__33651: 'http://c301-desktop:33651/', host_c301_desktop__34311: 'http://c301-desktop:34311/',
+    host_c301_desktop__34413: 'http://c301-desktop:34413/', host_c301_desktop__35287: 'http://c301-desktop:35287/',
+    host_c301_desktop__35641: 'http://c301-desktop:35641/', host_c301_desktop__35885: 'http://c301-desktop:35885/',
+    host_c301_desktop__36243: 'http://c301-desktop:36243/', host_c301_desktop__36411: 'http://c301-desktop:36411/',
+    host_c301_desktop__36423: 'http://c301-desktop:36423/', host_c301_desktop__36533: 'http://c301-desktop:36533/',
+    host_c301_desktop__36947: 'http://c301-desktop:36947/', host_c301_desktop__37117: 'http://c301-desktop:37117/',
+    host_c301_desktop__37463: 'http://c301-desktop:37463/', host_c301_desktop__38273: 'http://c301-desktop:38273/',
+    host_c301_desktop__38585: 'http://c301-desktop:38585/', host_c301_desktop__38981: 'http://c301-desktop:38981/',
+    host_c301_desktop__39179: 'http://c301-desktop:39179/', host_c301_desktop__39475: 'http://c301-desktop:39475/',
+    host_c301_desktop__39503: 'http://c301-desktop:39503/', host_c301_desktop__40015: 'http://c301-desktop:40015/',
+    host_c301_desktop__40071: 'http://c301-desktop:40071/', host_c301_desktop__40189: 'http://c301-desktop:40189/',
+    host_c301_desktop__40429: 'http://c301-desktop:40429/', host_c301_desktop__41319: 'http://c301-desktop:41319/',
+    host_c301_desktop__42041: 'http://c301-desktop:42041/', host_c301_desktop__42067: 'http://c301-desktop:42067/',
+    host_c301_desktop__42431: 'http://c301-desktop:42431/', host_c301_desktop__42475: 'http://c301-desktop:42475/',
+    host_c301_desktop__42929: 'http://c301-desktop:42929/', host_c301_desktop__43419: 'http://c301-desktop:43419/',
+    host_c301_desktop__44087: 'http://c301-desktop:44087/', host_c301_desktop__44853: 'http://c301-desktop:44853/',
+    host_c301_desktop__45477: 'http://c301-desktop:45477/', host_c301_desktop__45617: 'http://c301-desktop:45617/',
+    host_c301_desktop__45847: 'http://c301-desktop:45847/', host_c301_desktop__46315: 'http://c301-desktop:46315/',
+    host_c301_desktop__46501: 'http://c301-desktop:46501/', host_gabriele_virtualbox__35853: 'http://gabriele-VirtualBox:35853/',
+    host_gabriele_virtualbox__45201: 'http://gabriele-VirtualBox:45201/'}
+rosversion: '1.14.12
+
+  '
+run_id: b9e31a7a-5288-11ec-b6e0-0800274bc560

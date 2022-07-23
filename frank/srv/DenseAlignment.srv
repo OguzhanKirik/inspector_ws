@@ -1,0 +1,6 @@
+string Path
+int32 cluster_id
+---
+int32 res
+string error
+structArray points

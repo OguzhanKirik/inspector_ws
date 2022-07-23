@@ -1,0 +1,6 @@
+---
+bool spindle_mounted
+bool inspection_mounted
+bool rack_spindle_presence
+bool rack_inspection_presence
+string error

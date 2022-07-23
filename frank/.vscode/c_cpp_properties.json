@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/oguz/frank_ws/ROS-SOFTWARE-REAL/ROS-Frank_robot_control/catkin_ws/devel_isolated/frank/include/**",
+        "/home/oguz/musp/lma_phase_2/lma_phase_2/ROS-Frank_robot_control-main/catkin_ws/devel_isolated/frank/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/oguz/frank_ws/ROS-SOFTWARE-REAL/ROS-Frank_robot_control/catkin_ws/devel_isolated/abb_librws/include/**",
+        "/home/oguz/frank_ws/ROS-SOFTWARE-REAL/ROS-Frank_robot_control/catkin_ws/devel_isolated/abb_libegm/include/**",
+        "/home/oguz/musp/lma_phase_2/lma_phase_2/ROS-Frank_robot_control-main/catkin_ws/devel_isolated/abb_librws/include/**",
+        "/home/oguz/musp/lma_phase_2/lma_phase_2/ROS-Frank_robot_control-main/catkin_ws/devel_isolated/abb_libegm/include/**",
+        "/home/oguz/frank_ws/ROS-SOFTWARE-REAL/ROS-Frank_robot_control/catkin_ws/src/frank/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

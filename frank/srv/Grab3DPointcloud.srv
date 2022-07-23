@@ -1,0 +1,4 @@
+---
+int32 res
+string error
+sensor_msgs/PointCloud2 pointcloud

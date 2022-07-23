@@ -1,0 +1,8 @@
+int64 DrillBit1pos
+int64 DrillBit2pos
+int64 DrillBit3pos
+int64 DrillBit4pos
+int64 DrillBit5pos
+int64 DrillBitOn
+---
+string Result

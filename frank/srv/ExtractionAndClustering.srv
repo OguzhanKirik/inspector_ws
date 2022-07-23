@@ -1,0 +1,5 @@
+color[] colors
+---
+structArray points_profi
+structArray points_drill
+string error

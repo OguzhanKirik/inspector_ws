@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" > 
+     <arg name="port" value="8080"/>
+    </include>
+
+    <rosparam file="/home/oguz/frank_ws/ROS-SOFTWARE-REAL/ROS-Frank_robot_control/catkin_ws/src/frank/config/Reference_systems.yaml" command="load" />
+    <node pkg="frank" type="camera3d_node.py" name="camera3d_node" output="screen">
+    </node>
+    <node pkg="frank" type="camera3d_node_x36.py" name="camera3d_node_x36" output="screen">
+    </node>
+    <node pkg="frank" type="profilometer_node.py" name="profilometer" output="screen">
+    </node>
+    <node pkg="frank" type="plc_node.py" name="plc_node" output="screen">
+    </node>
+    <node pkg="frank" type="pose_pub_2_velocity_controller_node_node" name="egm" output="screen">
+    </node>
+    <node pkg="frank" type="Trajectory_pub.py" name="Path_plan" output="screen">
+    </node>
+    <node pkg="frank" type="UpdateDrillservices" name="UpdateDrillservices" output="screen">
+    </node>
+    <node pkg="frank" type="master_node.py" name="master_node" output="screen">
+    </node>
+    <!-- <node pkg="frank" type="step_align_node.py" name="step_align_node" output="screen">
+    </node> -->
+    <node pkg="frank" type="rws_node" name="rws" output="screen">
+    </node>
+    <node pkg="frank" type="manual_node.py" name="manual_node" output="screen">
+    </node>
+    <node pkg="frank" type="camera2d_node.py" name="camera2d_node" output="screen">
+    </node>
+    <node pkg="frank" type="rangeImage_services" name="rangeImage_services" output="screen">
+    </node>
+    <node pkg="frank" type="rangeimage_node" name="rangeimage_node" output="screen">
+    </node>
+    <node pkg="frank" type="rangeimage_subscriber" name="rangeimage_subscriber" output="screen">
+    </node>
+    <!-- <node pkg="frank" type="rangeImage_client" name="rangeImage_client" output="screen">
+    </node> -->
+    
+</launch>    

@@ -1,0 +1,7 @@
+string Path
+int32 mode
+---
+int32 res
+string error
+structArray points_profi
+structArray points_drill
